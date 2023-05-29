@@ -3,19 +3,18 @@
 }
 
 .picture {
-    width: 150px;
+    width: 250px;
 }
 
 .content_box {
-    margin-top: 50px;
-    display: inline-block;
+    margin-top: 150px;
     padding: 10px;
-    height: 750px;
 }
 
 .title {
-    font-size: 90px;
+    font-size: 140px;
     font-weight: bold;
+    text-align: center;
 }
 
 .btn {
