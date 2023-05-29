@@ -1,8 +1,9 @@
 import SidebarItem from "./SidebarItem";
+import styles from "./Sidebar.module.css";
 
 function Sidebar() {
     return (
-        <div>
+        <div className={styles.sidebar}>
             <SidebarItem item="About Me"/>
             <SidebarItem item="Skill"/>
             <SidebarItem item="Projects"/>

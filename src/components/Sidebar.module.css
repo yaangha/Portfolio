@@ -1,0 +1,18 @@
+.sidebar {
+    width: 15%;
+    background-color: gray;
+    height: 100%; /* position:fixed 와 함께 100%로 적어줘야 함 */
+    position: fixed;
+}
+
+.sidebar_item {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.sidebar_item:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: yellow;
+}
