@@ -2,9 +2,7 @@ import styles from "../styles/Sidebar.module.css";
 
 function SidebarItem({ item }) {
     return (
-        <div className={styles.sidebar_item}>
-            <p>{ item }</p>
-        </div>
+        <li className={styles.sidebar_item}>{ item }</li>
     );
 }
 

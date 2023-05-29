@@ -3,6 +3,7 @@ import ContactMe from "../components/ContactMe";
 import styles from "../styles/Home.module.css";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import GoToTheTop from "../components/GoToTheTop";
 
 function Home() {
     return (
@@ -18,6 +19,7 @@ function Home() {
             <Skills />
             <Projects />
             <ContactMe />
+            <GoToTheTop />
         </div>
     );
 }
