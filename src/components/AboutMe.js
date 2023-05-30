@@ -1,4 +1,4 @@
-import styles from "../styles/AboutMe.module.css";
+// import styles from "../styles/AboutMe.module.css";
 import commonStyle from "../styles/Common.module.css";
 
 function AboutMe() {

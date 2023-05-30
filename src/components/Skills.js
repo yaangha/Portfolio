@@ -1,4 +1,4 @@
-import styles from "../styles/Skills.module.css";
+// import styles from "../styles/Skills.module.css";
 import commonStyle from "../styles/Common.module.css";
 
 function Skills() {

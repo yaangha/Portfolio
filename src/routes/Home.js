@@ -5,10 +5,17 @@ import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import GoToTheTop from "../components/GoToTheTop";
 import Sidebar from "../components/Sidebar";
+import { useRef } from "react";
 
 function Home() {
+
+    const element = useRef();
+
     return (
         <div className={styles.main_box}>
+
+            <button onClick={() => {element.current.focus()}}>CLICK</button>
+
             <Sidebar></Sidebar>
             <div className={styles.content_box}>
                 <div className={styles.title}>HAEUN PORTFOLIO</div>
@@ -21,6 +28,9 @@ function Home() {
             <Skills />
             <Projects />
             <ContactMe />
+
+            <div ref={element}>Here!!!</div>
+
             <GoToTheTop />
         </div>
     );

@@ -1,6 +1,6 @@
 .sidebar {
     position: fixed;
-    width: 35%;
+    width: 23%;
     text-align: center;
     background-color: rgba(0, 255, 0, 0.2);
     border-radius: 10px;
@@ -15,7 +15,7 @@
 
 .sidebar_item {
     display: inline-block;
-    font-size: 25px;
+    font-size: smaller;
     margin: 0 15px;
     font-weight: bold;
 }

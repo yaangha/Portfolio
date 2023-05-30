@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function GoToTheTop() {
-    const [showBtn, setShowBtn] = useState(true); // 스크롤을 어느정도 내리면 버튼이 보이게 됨 
+    const [showBtn, setShowBtn] = useState(false); // 스크롤을 어느정도 내리면 버튼이 보이게 됨 
 
     function handleScroll() {
         const { scrollY } = window; // 현재 어느정도 스크롤 됐는지 윈도우에서 받아옴  
