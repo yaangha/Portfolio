@@ -24,19 +24,40 @@
 
 /* div */
 .navBtn { 
+    width: 25%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
+    position: fixed;
 }
 
-/* div > span */
-.navBtn > span {
-    border-radius: 5px;
-    background-color: beige;
-    padding: 5px;
-    margin: 3px;
+/* div > div */
+.navBtn > div {
+    background-color: black;
 }
 
 /* buttons */
 .navBtn button {
+    font-size: small;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: none;
     border-radius: 3px;
+    padding: 15px 10px;
+    margin: 3px;
+    color: white;
+    background-color: black;
+}
+
+/* 맨 위로 올라가기 버튼 */
+.GoToTopBtn {
+    right:25px;
+    bottom:25px;
+    position:fixed;
+    border:3px solid black;
+    background-color:white;
+    z-index:99;
+    padding: 7px 10px;
+    border-radius: 25px;
 }

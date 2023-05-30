@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { FaArrowUp } from "react-icons/fa";
+import styles from "../styles/Home.module.css";
 
 function GoToTheTop() {
     const [showBtn, setShowBtn] = useState(false); // 스크롤을 어느정도 내리면 버튼이 보이게 됨 
@@ -20,7 +22,7 @@ function GoToTheTop() {
     };
 
     return (
-        showBtn ? <button style={{ right:"10px", bottom:"10px", position:"fixed" }} onClick={GoTop}>TOP</button> : null
+        showBtn ? <button className={styles.GoToTopBtn} onClick={GoTop}><FaArrowUp size="24"/></button> : null
     );
 }
 
