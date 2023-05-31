@@ -50,3 +50,21 @@
     border-top-right-radius: 10px;
     background-size: cover;
 }
+
+/* image working,, */
+.testImgDiv {
+    display: inline-block;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: gray;
+}
+
+.testImgDiv img {
+    border-radius: 10px;
+    width: 650px;
+    height: 300px;
+    object-fit:cover;
+    filter: grayscale(100%);
+}

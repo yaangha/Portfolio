@@ -2,7 +2,9 @@ import itemStyle from "../styles/ProjectItem.module.css";
 
 function ProjectItem({ title, info, url, skills, img }) {
     return (
-        <div className={itemStyle.item_box}>
+        <div className={itemStyle.testImgDiv}>
+            <img src={img} alt={title}/>
+            {/*
             <div className={itemStyle.imgDiv}>
                 <img className={itemStyle.images} src={img} alt={title}/>
             </div>
@@ -14,6 +16,7 @@ function ProjectItem({ title, info, url, skills, img }) {
                 </ul>
                 <button className={itemStyle.btn} onClick={() => { window.open(url) }}>Read More..</button>
             </div>
+            */}
         </div>
     );
 }
