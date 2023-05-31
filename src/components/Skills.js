@@ -1,5 +1,6 @@
 // import styles from "../styles/Skills.module.css";
 import commonStyle from "../styles/Common.module.css";
+import SkillLogo from "./SkillLogo";
 
 function Skills() {
     return (
@@ -8,35 +9,26 @@ function Skills() {
             <div>
                 <div>
                     <h3>BE</h3>
-                    <ul>
-                        <li>Spring Boot</li>
-                        <li>JSP</li>
-                    </ul>
+                    <SkillLogo src="image/spring.png" alt="Spring" />
                 </div>
                 <div>
                     <h3>FE</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>Thymeleaf</li>
-                        <li>Bootstrap</li>
-                    </ul>
+                    <SkillLogo src="image/css02.png" alt="CSS" />
+                    <SkillLogo src="image/html.png" alt="HTML" />
+                    <SkillLogo src="image/JS.png" alt="Javascript" />
+                    <SkillLogo src="image/thymeleaf01.png" alt="Thymeleaf" />
+                    <SkillLogo src="image/bootstrap.png" alt="Bootstrap" />
+                    <SkillLogo src="image/react.png" alt="React" />
                 </div>
                 <div>
                     <h3>DB</h3>
-                    <ul>
-                        <li>Oracle</li>
-                    </ul>
+                    <SkillLogo src="image/oracle.png" alt="Oracle" />
                 </div>
                 <div>
                     <h3>Tool</h3>
-                    <ul>
-                        <li>STS</li>
-                        <li>Eclipse</li>
-                        <li>Visual Studio Code</li>
-                        <li>Github</li>
-                    </ul>
+                    <SkillLogo src="image/eclipse01.png" alt="Eclipse" />
+                    <SkillLogo src="image/vscode.png" alt="Visual Studio Code" />
+                    <SkillLogo src="image/github.png" alt="Github" />
                 </div>
             </div>
         </div>
