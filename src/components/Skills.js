@@ -6,6 +6,7 @@ function Skills() {
     return (
         <div className={commonStyle.content_box}>
             <div className={commonStyle.title}>Skills</div>
+            <div style={{ fontSize:"72px", fontFamily:"cursive", fontWeight:"bold" }}>Skills</div>
             <div>
                 <div>
                     <h3>BE</h3>

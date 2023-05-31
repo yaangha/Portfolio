@@ -24,6 +24,7 @@ function Projects() {
     return (
         <div className={commonStyle.content_box}>
             <div className={commonStyle.title}>Projects</div>
+            <div style={{ textAlign:"right", fontSize:"72px", fontFamily:"cursive", fontWeight:"bold" }}>Projects</div>
             {items.map((items) => 
                 <ProjectItem 
                     title={items.title} 

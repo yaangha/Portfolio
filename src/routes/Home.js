@@ -16,35 +16,37 @@ function Home() {
         window.scrollTo({ top: el.current.offsetTop, behavior: "smooth" });
     };
     return (
-        <div className={styles.main_box}>
-            <div className={styles.navBtn}>
-                <div>
-                    <button onClick={() => handleScroll(section1)}>AboutMe</button>
-                    <button onClick={() => handleScroll(section2)}>Skills</button>
-                    <button onClick={() => handleScroll(section3)}>Projects</button>
-                    <button onClick={() => handleScroll(section4)}>ContactMe</button>
+        <div style={{ backgroundColor:"rgb(245, 245, 245)" }}>
+            <div className={styles.main_box}>
+                <div className={styles.navBtn}>
+                    <div>
+                        <button onClick={() => handleScroll(section1)}>AboutMe</button>
+                        <button onClick={() => handleScroll(section2)}>Skills</button>
+                        <button onClick={() => handleScroll(section3)}>Projects</button>
+                        <button onClick={() => handleScroll(section4)}>ContactMe</button>
+                    </div>
                 </div>
-            </div>
-            <div className={styles.content_box}>
-                <div className={styles.title}>HAEUN PORTFOLIO</div>
-                <div>
-                    <div>SHOW</div>
-                    <img className={styles.picture} src="image/me.jpg" alt="me"/>
+                <div className={styles.content_box}>
+                    <div className={styles.title}>HAEUN PORTFOLIO</div>
+                    <div>
+                        <div>SHOW</div>
+                        <img className={styles.picture} src="image/me.jpg" alt="me"/>
+                    </div>
                 </div>
+                <div ref={section1}>
+                    <AboutMe />
+                </div>
+                <div ref={section2}>
+                    <Skills />
+                </div>
+                <div ref={section3}>
+                    <Projects />
+                </div>
+                <div ref={section4}>
+                    <ContactMe />
+                </div>
+                <GoToTheTop />
             </div>
-            <div ref={section1}>
-                <AboutMe />
-            </div>
-            <div ref={section2}>
-                <Skills />
-            </div>
-            <div ref={section3}>
-                <Projects />
-            </div>
-            <div ref={section4}>
-                <ContactMe />
-            </div>
-            <GoToTheTop />
         </div>
     );
 }
