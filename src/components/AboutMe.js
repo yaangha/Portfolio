@@ -3,7 +3,7 @@ import commonStyle from "../styles/Common.module.css";
 
 function AboutMe() {
     return (
-        <div className={commonStyle.content_box}>
+        <div className={commonStyle.content_box}> 
             <div className={commonStyle.title}>Biography</div>
             <div>
                 <h3>Info</h3>
