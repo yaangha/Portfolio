@@ -1,6 +1,6 @@
 import AboutMe from "../components/AboutMe";
 import ContactMe from "../components/ContactMe";
-import styles from "../styles/Home.module.css";
+import homeStyles from "../styles/Home.module.css";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import GoToTheTop from "../components/GoToTheTop";
@@ -24,7 +24,7 @@ function Home() {
     const [ScrollActive, setScrollActive] = useState(false);
     function handleScrollNavBar() {
         const {scrollY} = window;
-        scrollY > 815 ? setScrollActive(true) : setScrollActive(false);
+        scrollY > 820 ? setScrollActive(true) : setScrollActive(false);
     }
     useEffect(() => {
         window.addEventListener("scroll", handleScrollNavBar);
@@ -34,13 +34,13 @@ function Home() {
     }, []);
 
     return (
-        <div style={{ backgroundColor:"rgb(245, 245, 245)" }}>
-            <div ref={home} className={styles.main_box}>
-                <div className={styles.content_box}>
-                    <div className={styles.title}>HAEUN<br/>PORTFOLIO</div>
+        <div className={homeStyles.fullBox}>
+            <div ref={home} className={homeStyles.main_box}>
+                <div className={homeStyles.content_box}>
+                    <span className={homeStyles.title}>HAEUN<br/>PORTFOLIO</span>
                 </div>
 
-                <div>
+                <div style={{zIndex:9999}}>
                     {ScrollActive ? (
                         <div>
                             <div className={navStyle.navBar}>

@@ -1,3 +1,8 @@
+.fullBox {
+    background-color:rgb(245, 245, 245);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .main_box {
     padding: 5px 10px;
 }
@@ -15,6 +20,9 @@
 .title {
     font-size: 200px;
     font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to top, #bfffa1 40%, transparent 40%);
+    text-shadow: 3px 3px 10px silver;
 }
 
 .btn {
