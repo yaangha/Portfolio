@@ -1,0 +1,19 @@
+.navBar {
+    position:fixed;
+    top:10px;
+    width: 97.5%;
+    background-color:rgb(245, 245, 245);
+}
+
+.navBtn {
+    text-align: center;
+    border-bottom: thin solid black;
+    width: 100%;
+}
+
+.navBtn button {
+    border: none;
+    font-size: 27px;
+    margin: 15px 36px;
+    background-color:rgb(245, 245, 245);
+}
