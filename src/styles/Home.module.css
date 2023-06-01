@@ -9,12 +9,12 @@
 .content_box {
     margin-top: 150px;
     padding: 10px;
+    min-height: 800px;
 }
 
 .title {
-    font-size: 140px;
+    font-size: 200px;
     font-weight: bold;
-    text-align: center;
 }
 
 .btn {

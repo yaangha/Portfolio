@@ -20,18 +20,14 @@ function Home() {
             <div className={styles.main_box}>
                 <div className={styles.navBtn}>
                     <div>
-                        <button onClick={() => handleScroll(section1)}>AboutMe</button>
+                        <button onClick={() => handleScroll(section1)}>Biography</button>
                         <button onClick={() => handleScroll(section2)}>Skills</button>
                         <button onClick={() => handleScroll(section3)}>Projects</button>
-                        <button onClick={() => handleScroll(section4)}>ContactMe</button>
+                        <button onClick={() => handleScroll(section4)}>Contact</button>
                     </div>
                 </div>
                 <div className={styles.content_box}>
-                    <div className={styles.title}>HAEUN PORTFOLIO</div>
-                    <div>
-                        <div>SHOW</div>
-                        <img className={styles.picture} src="image/me.jpg" alt="me"/>
-                    </div>
+                    <div className={styles.title}>HAEUN<br/>PORTFOLIO</div>
                 </div>
                 <div ref={section1}>
                     <AboutMe />

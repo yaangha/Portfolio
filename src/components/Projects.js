@@ -23,8 +23,9 @@ function Projects() {
 
     return (
         <div className={commonStyle.content_box}>
-            <div className={commonStyle.title}>Projects</div>
-            <div style={{ textAlign:"right", fontSize:"72px", fontFamily:"cursive", fontWeight:"bold" }}>Projects</div>
+            <div>Projects</div>
+            <div className={commonStyle.title}>What I Worked..</div>
+            <div>지금까지 진행한 작업물들이며 자세한 사항은 깃허브를 통해 확인하실 수 있습니다.</div>
             {items.map((items) => 
                 <ProjectItem 
                     title={items.title} 
