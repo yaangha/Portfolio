@@ -4,6 +4,12 @@ import ProjectItem from "./ProjectItem";
 
 function Projects() {
     const items = [
+        { title: "Portfolio", 
+            info: "React를 사용하여 제작한 포트폴리오 페이지",
+            url: "https://github.com/yaangha/portfolio",
+            skills: ["React", "Html", "Css"],
+            img: "image/4th.png",
+            per: "Personal Project" },
         { title: "영화, 기록하다", 
             info: "영화 리뷰를 작성한 후 댓글로 사용자들끼리 소통할 수 있는 사이트",
             url: "https://github.com/yaangha/Film-Life",
@@ -27,8 +33,8 @@ function Projects() {
     return (
         <div className={commonStyle.content_box}>
             <div className={commonStyle.subTitle}>Projects</div>
-            <div className={commonStyle.title}>What I Worked..</div>
-            <div>지금까지 진행한 작업물들이며 자세한 사항은 깃허브를 통해 확인하실 수 있습니다.</div>
+            <div className={commonStyle.title}>The things I worked on</div>
+            <div>지금까지 공부한 것들을 활용한 프로젝트 리스트입니다.</div>
             {items.map((items) => 
                 <ProjectItem 
                     title={items.title} 

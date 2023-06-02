@@ -6,16 +6,27 @@
     margin: 11px;
 }
 
+.per {
+    font-size: small;
+    color:dimgray;
+}
+
 .title {
     font-size: 25px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-top: 12px;
+    margin-bottom: 7px;
 }
 
 .btn {
-    margin-top: 5px;
-    padding: 7px;
+    margin-top: 25px;
+    padding: 10px;
     font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color:red;
+    color: white;
 }
 
 .skill_list {
@@ -27,23 +38,15 @@
     display: inline-block;
     font-size: small;
     font-weight: bold;
-    margin: 0 2px;
+    margin: 0 3px;
     padding: 5px;
-    border-radius: 5px;
-    background-color: black;
-    color: white;
+    border: thin solid black;
+    border-radius: 10px;
 }
 
 .content_box {
     padding: 10px;
     display: inline-block;
-}
-
-.images {
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-size: cover;
 }
 
 /* image working,, */
@@ -54,7 +57,7 @@
     margin: 25px;
     padding: 25px;
     border-radius: 10px;
-    background-color: white;
+    background-color:rgb(235, 235, 235);
     box-shadow: 5px 5px 10px 1px silver;
 }
 
@@ -63,5 +66,9 @@
     border-radius: 10px;
     height: 200px;
     object-fit:contain;
-    box-shadow: 5px 5px 10px 1px silver;
+    box-shadow: 3px 3px 5px 1px silver;
+}
+
+.url {
+    font-size: small;
 }
