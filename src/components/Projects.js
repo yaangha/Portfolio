@@ -27,7 +27,13 @@ function Projects() {
             url: "https://github.com/yaangha/Booque",
             skills: ["Java", "Spring Boot", "Thymeleaf", "Oracle", "Html", "Css", "Javascript"],
             img: "image/project/1st.png",
-            per: "Team Project" }
+            per: "Team Project" },
+        { title: "Movie Diary", 
+            info: "자바 스윙으로 개발한 영화를 기록할 수 있는 프로그램",
+            url: "https://github.com/yaangha/Movie-Diary",
+            skills: ["Java(swing)"],
+            img: "image/project/swing.png",
+            per: "Personal Project" }
     ];
 
     return (
