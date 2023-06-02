@@ -3,3 +3,31 @@
     font-weight: bold;
     text-align: right;
 }
+
+/* 자격증 list ul */
+.certificate_list {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.5;
+}
+
+.certificate_list li {
+    margin-bottom: 25px;
+}
+
+.certificate_name {
+    font-weight: bold;
+}
+
+/* 자격증 합격여부 */
+.certificate_pass {
+    font-size: 12px;
+    border-right: 1px solid black;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+/* 자격증 취득일 */
+.certificate_date {
+    font-size: 12px;
+}

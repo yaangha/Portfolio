@@ -1,19 +1,28 @@
-import styles from "../styles/ContactMe.module.css";
+import contactStyle from "../styles/ContactMe.module.css";
 import commonStyle from "../styles/Common.module.css";
-import { FaPhoneVolume } from "react-icons/fa";
 
 function ContactMe() {
+    function Info ({ label, text }) {
+        return (
+            <div className={contactStyle.info_box}>
+                <div className={contactStyle.icon}>{label}</div>
+                <div className={contactStyle.iconInfo}>{text}</div>
+            </div>
+        );
+    }
+
     return (
-        <div className={commonStyle.content_box}>
-            <div className={commonStyle.title}>Contact</div>
-            <div className={styles.content}>
+        <div className={contactStyle.content_box}>
+            <div className={contactStyle.title}>Contact</div>
             <div>
-                <FaPhoneVolume/>
-                010-2977-5947
+                <div className={contactStyle.contactAdd}>
+                    <Info label="Name" text="Yang Haeun"/>
+                    <Info label="Phone" text="010-2977-5947"/>
+                    <Info label="E-mail" text="y210he@gmail.com" />
+                    <Info label="Github" text="https://github.com/yaangha" />
+                </div>
+                <img className={contactStyle.img} src="image/me.JPG" alt="me"/>
             </div>
-                <div>y210he@gmail.com</div>
-            </div>
-            <div></div>
         </div>
     );
 }

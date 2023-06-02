@@ -40,7 +40,7 @@ function Home() {
                     <span className={homeStyles.title}>HAEUN<br/>PORTFOLIO</span>
                 </div>
 
-                <div style={{zIndex:9999}}>
+                <div>
                     {ScrollActive ? (
                         <div>
                             <div className={navStyle.navBar}>

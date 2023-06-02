@@ -20,8 +20,12 @@
 .title {
     font-size: 25px;
     font-weight: bold;
-    margin-top: 12px;
-    margin-bottom: 7px;
+    margin: 12px 0;
+}
+
+/* project explain */
+.info {
+    font-size: 15px;
 }
 
 /* Read More Button */
@@ -60,9 +64,8 @@
 }
 
 /* project image */
-.div_box img {
-    display: inline-block;
-    border-radius: 10px;
+.img {
+    border-radius: 10px; 
     height: 200px;
     object-fit:contain;
     box-shadow: 3px 3px 5px 1px silver;

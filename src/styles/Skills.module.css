@@ -3,3 +3,14 @@
     font-weight: bold;
     text-align: right;
 }
+
+.skillPart {
+    display:inline-block; 
+    font-size:15px;
+    border-radius:5px;
+    padding: 2px 5px;
+    background-color:black;
+    color:white;
+    margin-top: 35px;
+    margin-left: 10px;
+}

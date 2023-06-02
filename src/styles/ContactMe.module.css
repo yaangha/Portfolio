@@ -1,3 +1,46 @@
-.content {
+.title {
+    font-size: 54px;
+    font-weight: bold;
+    padding: 15px 0;
+    margin-bottom: 50px;
+    border-bottom: thin solid black;
+}
+
+.content_box {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.img {
+    width: 500px;
+    margin-left: 150px;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px 1px silver;
+}
+
+.contactAdd {
+    text-align: left;
     font-size: 36px;
+    display: inline-block;
+}
+
+/* phone, email label */
+.icon {
+    display:inline-block; 
+    font-size:12px;
+    border-radius:5px;
+    padding: 2px 5px;
+    background-color:black;
+    color:white;
+}
+
+/* phone, email info */
+.iconInfo {
+    display:inline-block;
+    margin-left:10px;
+}
+
+.info_box {
+    margin-bottom: 25px;
 }
