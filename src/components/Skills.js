@@ -13,26 +13,26 @@ function Skills() {
             <div>
                 <div>
                     <h2>Back End</h2>
-                    <SkillLogo src="image/spring.png" alt="Spring" />
+                    <SkillLogo src="image/logo/spring.png" alt="Spring" />
                 </div>
                 <div>
                     <h2>Front End</h2>
-                    <SkillLogo src="image/css02.png" alt="CSS" />
-                    <SkillLogo src="image/html.png" alt="HTML" />
-                    <SkillLogo src="image/JS.png" alt="Javascript" />
-                    <SkillLogo src="image/thymeleaf01.png" alt="Thymeleaf" />
-                    <SkillLogo src="image/bootstrap.png" alt="Bootstrap" />
-                    <SkillLogo src="image/react.png" alt="React" />
+                    <SkillLogo src="image/logo/css02.png" alt="CSS" />
+                    <SkillLogo src="image/logo/html.png" alt="HTML" />
+                    <SkillLogo src="image/logo/JS.png" alt="Javascript" />
+                    <SkillLogo src="image/logo/thymeleaf01.png" alt="Thymeleaf" />
+                    <SkillLogo src="image/logo/bootstrap.png" alt="Bootstrap" />
+                    <SkillLogo src="image/logo/react.png" alt="React" />
                 </div>
                 <div>
                     <h2>DataBase</h2>
-                    <SkillLogo src="image/oracle.png" alt="Oracle" />
+                    <SkillLogo src="image/logo/oracle.png" alt="Oracle" />
                 </div>
                 <div>
                     <h2>Tool</h2>
-                    <SkillLogo src="image/eclipse01.png" alt="Eclipse" />
-                    <SkillLogo src="image/vscode.png" alt="VSCode" />
-                    <SkillLogo src="image/github.png" alt="Github" />
+                    <SkillLogo src="image/logo/eclipse01.png" alt="Eclipse" />
+                    <SkillLogo src="image/logo/vscode.png" alt="VSCode" />
+                    <SkillLogo src="image/logo/github.png" alt="Github" />
                 </div>
             </div>
         </div>

@@ -1,55 +1,4 @@
-.item_box {
-    display: inline-block;
-    width: 45%;
-    border: thin solid black;
-    border-radius: 10px;
-    margin: 11px;
-}
-
-.per {
-    font-size: small;
-    color:dimgray;
-}
-
-.title {
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 12px;
-    margin-bottom: 7px;
-}
-
-.btn {
-    margin-top: 25px;
-    padding: 10px;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border: none;
-    border-radius: 5px;
-    background-color:red;
-    color: white;
-}
-
-.skill_list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.skill_list > li {
-    display: inline-block;
-    font-size: small;
-    font-weight: bold;
-    margin: 0 3px;
-    padding: 5px;
-    border: thin solid black;
-    border-radius: 10px;
-}
-
-.content_box {
-    padding: 10px;
-    display: inline-block;
-}
-
-/* image working,, */
+/* project main box */
 .div_box {
     display: inline-block;
     width: 600px;
@@ -61,6 +10,56 @@
     box-shadow: 5px 5px 10px 1px silver;
 }
 
+/* personal or team */
+.per {
+    font-size: small;
+    color:dimgray;
+}
+
+/* project title */
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+
+/* Read More Button */
+.btn {
+    margin-top: 25px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color:red;
+    color: white;
+}
+
+/* Skill Ul */
+.skill_list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Skill li */
+.skill_list > li {
+    display: inline-block;
+    font-size: 8px;
+    font-weight: bold;
+    margin: 0 3px;
+    padding: 5px;
+    border: thin solid black;
+    border-radius: 7px;
+}
+
+/* project content(without image) */
+.content_box {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* project image */
 .div_box img {
     display: inline-block;
     border-radius: 10px;
@@ -69,6 +68,7 @@
     box-shadow: 3px 3px 5px 1px silver;
 }
 
+/* project github url */
 .url {
     font-size: small;
 }
