@@ -18,7 +18,7 @@ function SkillLogo({ src, alt }) {
                     <img className={styles.logoImg}
                         onMouseOver={handleMouseOver} 
                         onMouseOut={handleMouseOut}
-                        src={src} alt={alt}/>
+                        src={process.env.PUBLIC_URL + '/' + src} alt={alt}/>
                 </div>
                 { isHovering ? (
                     <div className={styles.hoverTrue}>

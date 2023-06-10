@@ -4,7 +4,7 @@ function ProjectItem({ title, info, url, skills, img, per }) {
     return (
         <div className={itemStyle.div_box}>
             <div style={{ textAlign:"right", paddingBottom:"70px" }}>
-                <img className={itemStyle.img} src={img} alt={title}/>
+                <img className={itemStyle.img} src={process.env.PUBLIC_URL + '/' + img} alt={title}/>
             </div>
             <div className={itemStyle.content_box}>
                 <div className={itemStyle.per}>{per}</div>

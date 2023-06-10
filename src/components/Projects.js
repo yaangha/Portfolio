@@ -4,6 +4,12 @@ import ProjectItem from "./ProjectItem";
 
 function Projects() {
     const items = [
+        { title: "To Do List", 
+            info: "React로 개발한 투두리스트",
+            url: "https://github.com/yaangha/TodoList",
+            skills: ["React", "Html", "Css"],
+            img: "image/project/todoList.png",
+            per: "Personal Project" },
         { title: "Portfolio", 
             info: "React를 사용하여 제작한 포트폴리오 페이지",
             url: "https://github.com/yaangha/portfolio",

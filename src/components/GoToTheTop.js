@@ -22,7 +22,7 @@ function GoToTheTop() {
     };
 
     return (
-        showBtn ? <button className={styles.GoToTopBtn} onClick={GoTop}><FaArrowUp size="24"/></button> : null
+        showBtn ? <button className={styles.GoToTopBtn} onClick={GoTop}><FaArrowUp size="21"/></button> : null
     );
 }
 
