@@ -4,6 +4,7 @@ import Certificate from "./Certificate";
 
 function AboutMe() {
     const certificateData = [
+        {pass:"필기합격", date:"2023.06.14", name:"정보처리기사"},
         {pass:"필기합격", date:"2022.08.28", name:"웹디자인기능사"},
         {pass:"최종합격", date:"2022.06.03", name:"컴퓨터활용능력 1급"},
         {pass:"최종합격", date:"2020.01.19", name:"JLPT N3"},
