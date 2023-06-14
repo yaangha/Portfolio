@@ -4,6 +4,10 @@
     text-align: right;
 }
 
+.content_box {
+    margin-bottom: 35px;
+}
+
 /* 자격증 list ul */
 .certificate_list {
     list-style: none;

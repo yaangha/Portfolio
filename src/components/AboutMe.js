@@ -17,12 +17,18 @@ function AboutMe() {
         <div className={commonStyle.content_box}> 
             <div className={commonStyle.title}>Biography</div>
             <div>
-                <h3>Info</h3>
-                <p>양하은 Yang HaEun(1995.03.20)</p>
-                <h3>Address</h3>
-                <p>서울특별시 송파구</p>
-                <h3>Education</h3>
-                <p>itwill 자바 웹 개발자 양성과정 134기</p>
+                <div className={bioStyles.content_box}>
+                    <h3>Info</h3>
+                    <p>양하은 Yang HaEun(1995.03.20)</p>
+                </div>
+                <div className={bioStyles.content_box}>
+                    <h3>Address</h3>
+                    <p>서울특별시 송파구</p>
+                </div>
+                <div className={bioStyles.content_box}>
+                    <h3>Education</h3>
+                    <p>itwill 자바 웹 개발자 양성과정 134기</p>
+                </div>
                 <h3>Certificate</h3>
                 <ul className={bioStyles.certificate_list}>
                     {certificateData.map((i) => <Certificate pass={i.pass} date={i.date} name={i.name}/>)}

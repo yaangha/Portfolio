@@ -1,5 +1,4 @@
 import contactStyle from "../styles/ContactMe.module.css";
-import commonStyle from "../styles/Common.module.css";
 
 function ContactMe() {
     const img = "image/me.JPG";
