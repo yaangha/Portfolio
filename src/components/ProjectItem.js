@@ -2,7 +2,7 @@ import itemStyle from "../styles/ProjectItem.module.css";
 
 function ProjectItem({ title, info, url, skills, img, per }) {
     return (
-        <div className={itemStyle.div_box}>
+        <div className={itemStyle.grid}>
             <div style={{ textAlign:"right", paddingBottom:"70px" }}>
                 <img className={itemStyle.img} src={process.env.PUBLIC_URL + '/' + img} alt={title}/>
             </div>
@@ -11,7 +11,7 @@ function ProjectItem({ title, info, url, skills, img, per }) {
                 <div className={itemStyle.title}>{title}</div>
                 <div className={itemStyle.info}>{info}</div>
                 <ul className={itemStyle.skill_list}>
-                    {skills.map((i) => <li>{i}</li>)}
+                    {skills.map((i, index) => <li key={index}>{i}</li>)}
                 </ul>
                 <div className={itemStyle.url} onClick={() => { window.open(url) }}>{url}</div>
                 <button className={itemStyle.btn} onClick={() => { window.open(url) }}>Read More..</button>

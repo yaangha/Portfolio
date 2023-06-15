@@ -10,6 +10,14 @@
     box-shadow: 5px 5px 10px 1px silver;
 }
 
+.grid {
+    margin: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color:rgb(235, 235, 235);
+    box-shadow: 5px 5px 10px 1px silver;    
+}
+
 /* personal or team */
 .per {
     font-size: small;

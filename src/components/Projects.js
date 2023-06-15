@@ -1,4 +1,4 @@
-// import styles from "../styles/Projects.module.css";
+import projectStyle from "../styles/Projects.module.css";
 import commonStyle from "../styles/Common.module.css";
 import ProjectItem from "./ProjectItem";
 
@@ -47,15 +47,18 @@ function Projects() {
             <div className={commonStyle.subTitle}>Projects</div>
             <div className={commonStyle.title}>The things I worked on</div>
             <div>지금까지 공부한 것들을 활용한 프로젝트 리스트입니다.</div>
-            {items.map((items) => 
-                <ProjectItem 
-                    title={items.title} 
-                    info={items.info}
-                    url={items.url}
-                    skills={items.skills}
-                    img={items.img}
-                    per={items.per}/>
-            )}
+            <div className={projectStyle.container}>
+                {items.map((items, index) => 
+                    <ProjectItem 
+                        key={index}
+                        title={items.title} 
+                        info={items.info}
+                        url={items.url}
+                        skills={items.skills}
+                        img={items.img}
+                        per={items.per}/>
+                )}
+            </div>
         </div>
     );
 }

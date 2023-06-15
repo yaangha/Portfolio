@@ -31,7 +31,7 @@ function AboutMe() {
                 </div>
                 <h3>Certificate</h3>
                 <ul className={bioStyles.certificate_list}>
-                    {certificateData.map((i) => <Certificate pass={i.pass} date={i.date} name={i.name}/>)}
+                    {certificateData.map((i, index) => <Certificate key={index} pass={i.pass} date={i.date} name={i.name}/>)}
                 </ul>
             </div>
         </div>
