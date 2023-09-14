@@ -4,17 +4,11 @@ import ProjectItem from "./ProjectItem";
 
 function Projects() {
     const items = [
-        { title: "To Do List", 
-            info: "React로 개발한 투두리스트",
-            url: "https://github.com/yaangha/TodoList",
-            skills: ["React", "Html", "Css"],
-            img: "image/project/todoList.png",
-            per: "Personal Project" },
-        { title: "Portfolio", 
-            info: "React를 사용하여 제작한 포트폴리오 페이지",
-            url: "https://github.com/yaangha/portfolio",
-            skills: ["React", "Html", "Css"],
-            img: "image/project/4th.png",
+        { title: "The Summer", 
+            info: "Spring Boot로 개발한 영화 기록 서비스로 배포까지 완료됨(버전 업데이트 중)",
+            url: "https://github.com/yaangha/Movie-Community",
+            skills: ["Java", "Spring Boot", "Thymeleaf", "Html", "Css", "Javascript"],
+            img: "image/project/TheSummer.png",
             per: "Personal Project" },
         { title: "영화, 기록하다", 
             info: "영화 리뷰를 작성한 후 댓글로 사용자들끼리 소통할 수 있는 사이트",
